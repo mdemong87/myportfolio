@@ -2,7 +2,8 @@
     color: #ddd;
     text-align: right;
     overflow-y: scroll;
-    height: 480px;
+    height: 67vh;
+    border: 1px solid red;
 }
 
 .main>div {
