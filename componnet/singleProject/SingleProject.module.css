@@ -1,0 +1,42 @@
+.SingleProjectWrp {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1fr;
+    grid-gap: 5px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.h2 {
+    margin: 0px 10px;
+}
+
+.p {
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.btngroup {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.btn {
+    background: transparent;
+    color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 1px 5px;
+    margin-bottom: 10px;
+}

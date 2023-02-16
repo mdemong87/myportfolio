@@ -1,0 +1,22 @@
+.main {
+    color: #ddd;
+    text-align: right;
+    overflow-y: scroll;
+    height: 480px;
+}
+
+.main>div {
+    text-align: left;
+}
+
+.main>div>h2 {
+    margin-top: 0px;
+}
+
+.main>div>p {
+    font-size: 20px;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}

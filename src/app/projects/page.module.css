@@ -1,0 +1,11 @@
+.projectWrp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.projectWrp::-webkit-scrollbar {
+    display: none;
+}

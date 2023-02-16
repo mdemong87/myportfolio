@@ -1,0 +1,25 @@
+.layoutbody {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.mood {
+    width: fit-content;
+    position: absolute;
+    height: 15px;
+    bottom: 10px;
+    left: 30px;
+    display: flex;
+    grid-gap: 10px;
+}
+
+.mood>div {
+    align-items: center;
+    display: flex;
+}
+
+.mood>div>input {
+    cursor: pointer;
+}

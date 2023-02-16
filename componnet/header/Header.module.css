@@ -1,0 +1,16 @@
+.headerWrp {
+    width: 95%;
+    height: 60px;
+    background: transparent;
+    padding: 20px;
+}
+
+.headerWrp>h1 {
+    margin: 0px;
+    font-size: 35px;
+}
+
+.headerWrp>p {
+    margin: 0px;
+    font-size: 19px;
+}

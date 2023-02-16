@@ -1,0 +1,18 @@
+.navWrp {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+.link {
+    color: #ddd;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: rgb(15, 234, 15);
+}
