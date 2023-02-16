@@ -9,3 +9,23 @@
 .projectWrp::-webkit-scrollbar {
     display: none;
 }
+
+
+
+@media (max-width:1024px) {
+    .projectWrp {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:768px) {
+    .projectWrp {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:550px) {
+    .projectWrp {
+        grid-template-columns: 1fr;
+    }
+}
