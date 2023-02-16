@@ -13,6 +13,10 @@
     font-weight: 600;
 }
 
+.active {
+    color: rgb(15, 234, 15);
+}
+
 .link:hover {
     color: rgb(15, 234, 15);
 }
