@@ -2,8 +2,7 @@
     color: #ddd;
     text-align: right;
     overflow-y: scroll;
-    height: 67vh;
-    border: 1px solid red;
+    height: 69vh;
 }
 
 .main>div {
