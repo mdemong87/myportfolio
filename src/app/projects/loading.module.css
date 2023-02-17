@@ -1,0 +1,36 @@
+.loadingWrp {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    overflow-y: scroll;
+    height: 68vh;
+}
+
+.loadingWrp::-webkit-scrollbar {
+    display: none;
+}
+
+.loading {
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+@media (max-width:1024px) {
+    .loadingWrp {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:768px) {
+    .loadingWrp {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:550px) {
+    .loadingWrp {
+        grid-template-columns: 1fr;
+    }
+}

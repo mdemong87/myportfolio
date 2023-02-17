@@ -1,0 +1,57 @@
+.loadingWrp {
+    width: 100%;
+    height: 68vh;
+    overflow: scroll;
+}
+
+.loadingWrp::-webkit-scrollbar {
+    display: none;
+}
+
+.SkeletonTheam {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one {
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.two {
+    height: 30px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.three {
+    height: 100px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.four {
+    height: 90px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.five {
+    height: 75px;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.six {
+    height: 80px;
+    width: 95%;
+    border-radius: 15px;
+}
+
+.seven {
+    height: 35px;
+    width: 90px;
+    border-radius: 15px;
+}
