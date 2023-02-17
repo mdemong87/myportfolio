@@ -6,7 +6,7 @@ import styles from "./SingleProject.module.css";
 export default function SingleProject({ img, name, dis, code, live }) {
     return (
         <div className={styles.SingleProjectWrp}>
-            <div>
+            <div className={styles.imageWrp}>
                 <Image className={styles.image} src={img} alt={"project Photo"} />
             </div>
             <div>
