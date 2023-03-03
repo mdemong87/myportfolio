@@ -1,0 +1,50 @@
+.skillWrp {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 15px;
+}
+
+.skillWrp>div {
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.skillWrp>div>span:first-child {
+    font-size: 40px;
+}
+
+.skillWrp>div>span:last-child {
+    font-size: 17px;
+}
+
+
+
+.skillWrp>div:hover {
+    color: rgb(15, 234, 15);
+    transform: scale(1.1);
+}
+
+.skillWrp>div:hover .icons {
+    animation: rotate 1s;
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}

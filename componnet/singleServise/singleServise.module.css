@@ -1,0 +1,20 @@
+.SingleserviseWrp {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 270px;
+    overflow-y: scroll;
+}
+
+.SingleserviseWrp::-webkit-scrollbar {
+    display: none;
+}
+
+.SingleserviseWrp>h1 {
+    padding: 10px;
+    margin: 0px;
+}
+
+.SingleserviseWrp>p {
+    padding: 10px;
+    margin: 0px;
+}

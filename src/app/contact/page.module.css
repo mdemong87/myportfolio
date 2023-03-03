@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-.iconsGroup>div {
+.link {
     border-radius: 10%;
     cursor: pointer;
     height: 50px;
@@ -39,11 +39,16 @@
     justify-content: center;
     background: #ddd;
     color: black;
+    transition: .3s;
 
 }
 
+.link:hover {
+    transform: scale(1.2);
+}
+
 .icons {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 @media (max-width:670px) {

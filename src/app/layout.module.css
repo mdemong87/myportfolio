@@ -5,6 +5,16 @@
     position: relative;
 }
 
+.animation {
+    position: absolute;
+    top: 10;
+    left: 10;
+    right: 20;
+    bottom: 10;
+    width: 98%;
+    height: 95vh;
+}
+
 .mood {
     width: fit-content;
     position: absolute;

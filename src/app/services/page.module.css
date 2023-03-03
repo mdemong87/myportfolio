@@ -1,36 +1,31 @@
-.loadingWrp {
-    width: 100%;
+.serviseWrp {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     overflow-y: scroll;
-    height: 68vh;
+    height: 69vh;
 }
 
-.loadingWrp::-webkit-scrollbar {
+.serviseWrp::-webkit-scrollbar {
     display: none;
 }
 
-.loading {
-    height: 250px;
-    border-radius: 10px;
-}
 
 
 @media (max-width:1024px) {
-    .loadingWrp {
+    .serviseWrp {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media (max-width:768px) {
-    .loadingWrp {
+    .serviseWrp {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width:550px) {
-    .loadingWrp {
+    .serviseWrp {
         grid-template-columns: 1fr;
     }
 }
