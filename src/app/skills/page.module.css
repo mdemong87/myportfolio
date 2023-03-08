@@ -7,6 +7,11 @@
     align-items: center;
     text-align: center;
     grid-gap: 15px;
+    overflow-y: scroll;
+}
+
+.skillWrp::-webkit-scrollbar {
+    display: none;
 }
 
 .skillWrp>div {
@@ -37,6 +42,26 @@
 
 .skillWrp>div:hover .icons {
     animation: rotate 1s;
+}
+
+@media (max-width:950px) {
+    .skillWrp {
+        grid-template-columns: 150px 150px 150px;
+    }
+}
+
+@media (max-width:768px) {
+    .skillWrp {
+        grid-template-columns: 150px 150px;
+        height: 69vh;
+    }
+}
+
+@media (max-width:550px) {
+    .skillWrp {
+        grid-template-columns: 150px;
+        height: 69vh;
+    }
 }
 
 @keyframes rotate {
